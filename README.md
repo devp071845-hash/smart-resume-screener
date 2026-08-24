@@ -154,10 +154,7 @@ resume-screener/
 
 ## Recording the demo video
 
-Not included here (this repo produces code, not video), but a 2–3 min demo
-should cover: filing a JD → uploading a resume → showing the extracted
-fields → running a match → the shortlist with score + justification →
-briefly opening `llm_matcher.py` to show the prompts.
+https://www.loom.com/share/29cde97177434945aac857d809af5457
 
 ## Notes / possible extensions
 
