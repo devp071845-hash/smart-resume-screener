@@ -1,0 +1,22 @@
+Backend Engineer — Platform Team
+
+We're looking for a Backend Engineer to help build and scale our core platform APIs.
+
+Responsibilities:
+- Design and build REST APIs in Python (Flask or FastAPI)
+- Work with PostgreSQL and Redis for data storage and caching
+- Write clean, tested, well-documented code
+- Collaborate with frontend engineers on API contracts
+- Deploy and monitor services on AWS using Docker/Kubernetes
+
+Requirements:
+- 3+ years of professional backend development experience
+- Strong Python skills; experience with Flask, FastAPI, or Django
+- Experience with SQL databases (PostgreSQL preferred)
+- Familiarity with Docker and containerized deployments
+- Comfortable working with Git and CI/CD pipelines
+
+Nice to have:
+- Experience with AWS (ECS, Lambda, RDS)
+- Exposure to machine learning or LLM-based features
+- Experience with message queues (SQS, Kafka, RabbitMQ)

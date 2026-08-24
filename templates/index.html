@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Smart Resume Screener</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <h1>Smart Resume Screener</h1>
+    <div class="subtitle">Candidate Evaluation System</div>
+  </div>
+</div>
+
+<div class="container">
+
+  <section class="card">
+    <h2>1. Add a job description</h2>
+    <form id="jd-form">
+      <input type="text" id="jd-title" placeholder="Job title" required />
+      <textarea id="jd-text" rows="6" placeholder="Paste job description..." required></textarea>
+      <button type="submit">Add job description</button>
+    </form>
+    <ul id="jd-list" class="item-list"></ul>
+  </section>
+
+  <section class="card">
+    <h2>2. Upload a resume</h2>
+    <form id="resume-form">
+      <input type="file" id="resume-file" accept=".pdf,.txt" required />
+      <button type="submit">Upload resume</button>
+    </form>
+    <ul id="resume-list" class="item-list"></ul>
+  </section>
+
+  <section class="card">
+    <h2>3. Match resume to job</h2>
+    <form id="match-form">
+      <select id="match-jd" required></select>
+      <select id="match-resume" required></select>
+      <button type="submit">Run match</button>
+    </form>
+  </section>
+
+  <section class="card">
+    <h2>4. Shortlist</h2>
+    <select id="shortlist-jd"></select>
+    <div id="shortlist"></div>
+  </section>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

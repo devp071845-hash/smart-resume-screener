@@ -1,0 +1,29 @@
+Priya Nair
+Backend Software Engineer
+priya.nair@example.com | github.com/priyanair
+
+SUMMARY
+Backend engineer with 4 years of experience building REST APIs and data-driven
+services in Python. Comfortable owning services end-to-end, from design through
+deployment and monitoring.
+
+EXPERIENCE
+
+Backend Engineer — Finlytics (2022–Present)
+- Built and maintained REST APIs in Flask serving 2M+ requests/day
+- Migrated core services from MySQL to PostgreSQL, improving query latency by 35%
+- Introduced Redis caching layer for hot read paths
+- Containerized all services with Docker; deployed to AWS ECS
+- Set up CI/CD pipeline with GitHub Actions
+
+Software Engineer — DataForge Labs (2021–2022)
+- Developed internal tooling in Python for data pipeline monitoring
+- Wrote integration tests and improved test coverage from 40% to 85%
+- Collaborated with frontend team to define API contracts
+
+EDUCATION
+B.Tech in Computer Science, VIT Vellore (2017–2021)
+
+SKILLS
+Python, Flask, FastAPI, PostgreSQL, Redis, Docker, AWS (ECS, RDS, Lambda), Git,
+REST APIs, SQL, CI/CD, pytest
